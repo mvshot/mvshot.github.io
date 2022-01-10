@@ -1,0 +1,80 @@
+:root{
+	--bg-col3:#212529;
+	--bg-col2:#eeeeee;
+	--bg-col:#2f3c58;
+	--lateral-icon-col: #e33030;
+}
+
+@font-face {
+	font-family: less_sans;
+	src: url(../fonts/SanFrancisco/otf/SFNSDisplay-Thin.otf);
+  } 
+
+*{
+	font-family: less_sans;
+}
+
+body {
+	background-color: white;
+	font-family: tahoma;
+}
+
+
+a.nav-link {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+
+
+.navbar-brand {
+	margin: 0%;
+	padding: 0%;
+}
+
+a {
+	text-decoration: none;
+	background-color: transparent;
+	color: black;
+}
+
+#footer {
+	display: inline-flex;
+	margin: 0;
+	background-color: var(--bg-col);
+	
+}
+
+.text-fp-r {
+	margin: 0;
+	padding: 100px;
+}
+
+
+.text-fp-l {
+	text-align: center;
+	margin: 0;
+	padding: 100px;
+}
+
+
+@media screen and (min-width: 768px){
+	
+	.sezione-immagini .testo {
+	padding: 7rem;
+}
+
+
+}
+	
+@media (min-width: 768px) {
+	.navbar-brand.abs
+		{
+			position: absolute;
+			width: auto;
+			left: 50%;
+			transform: translateX(-50%);
+			text-align: center;
+		}
+
+	}
